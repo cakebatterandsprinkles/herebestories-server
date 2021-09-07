@@ -1,0 +1,44 @@
+{
+  "name": "herebestories",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cakebatterandsprinkles/herebestories.git"
+  },
+  "keywords": [
+    "herebestories",
+    "story",
+    "prompt",
+    "writing"
+  ],
+  "author": "InnerMonke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cakebatterandsprinkles/herebestories/issues"
+  },
+  "homepage": "https://github.com/cakebatterandsprinkles/herebestories#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.1",
+    "mongoose": "^6.0.4",
+    "node-fetch": "^3.0.0",
+    "nodemon": "^2.0.12",
+    "request": "^2.88.2",
+    "unsplash-js": "^7.0.15"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "type": "module"
+}
